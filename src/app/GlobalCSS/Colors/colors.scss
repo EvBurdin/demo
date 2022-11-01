@@ -1,0 +1,24 @@
+/* Colors */
+$Black_800: #36383C;;
+$Text_1000: #686A6D;
+$Bg_800: #23252C;
+$BG_1000: #1B1D22;
+$White_1000: #FFFFFF;
+
+$ColorsMap: (
+    Black_800: $Black_800,
+    Text_1000: $Text_1000,
+    Bg_800: $Bg_800,
+    BG_1000: $BG_1000,
+    White_1000: $White_1000,
+);
+
+.UI_Colors_ {
+
+    @each $colorName, $color in $ColorsMap {
+  
+      &#{$colorName} {
+        color: $color !important;
+      }
+    }
+}

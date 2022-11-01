@@ -1,0 +1,44 @@
+@import "../../GlobalCSS/Constants.scss";
+
+.Note {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $Black_800;
+    border-radius: 12px;
+    background-color: $Bg_800;
+    width: 500px;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.Note_Button {
+    height: 56px;
+    margin-left: 10px !important;
+}
+.Note_HeadBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Note_Body {
+    color: $Text_1000;
+}
+
+.Note_Tittle {
+    color: $Text_1000;
+    font-weight: 900;
+    font-size: 30px;
+}
+.Note_TittleText {
+    .css-19mk8g1-MuiInputBase-root-MuiFilledInput-root{
+        color: $Text_1000;
+    }
+}
+.Note_BodyTextArea {
+    .css-1gzyby-MuiInputBase-root-MuiFilledInput-root {
+        color: $Text_1000 !important;
+        padding: 0px;
+    }
+}
